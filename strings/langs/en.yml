@@ -37,7 +37,7 @@ auth_8 : "┗ Added By:-"
 
 # PLUGINS - Admins
 admin_1 : "Music is already Paused."
-admin_2 : "🎧 Voicechat Paused by {}!"
+admin_2 : "🎧 وكفناها من قبل {}!"
 admin_3 : "Music is already resumed."
 admin_4 : "🎧 Voicechat Resumed by {}!"
 admin_5 : "Music is already muted."
