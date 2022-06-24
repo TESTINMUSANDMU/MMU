@@ -61,6 +61,10 @@ def help_pannel(_, START: Union[bool, int] = None):
             mark,
         ]
     )
+    InlineKeyboardButton(
+                text=_["H_B_7"],
+                url=f"https://t.me/ov_tr",
+            ),
     return upl
 
 
