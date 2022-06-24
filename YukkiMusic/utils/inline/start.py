@@ -34,7 +34,6 @@ def start_pannel(_):
                 text=_["S_B_101"],
                 url=f"https://t.me/ov_tr",
             ),
-                        ),
         ],
     [
             InlineKeyboardButton(
