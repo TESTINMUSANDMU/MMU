@@ -27,14 +27,6 @@ def start_pannel(_):
                 url=f"https://t.me/ov_tr",
             ),
             InlineKeyboardButton(
-                text=_["S_B_100"],
-                url=f"https://t.me/ov_tr",
-            ),
-            InlineKeyboardButton(
-                text=_["S_B_101"],
-                url=f"https://t.me/ov_tr",
-            ),
-            InlineKeyboardButton(
                 text=_["S_B_2"], callback_data="settings_helper"
             ),
         ],
