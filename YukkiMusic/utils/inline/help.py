@@ -57,14 +57,16 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text=_["H_B_6"],
                     callback_data="help_callback hb5",
                 ),
+             ],
+             [
+                InlineKeyboardButton(
+                text=_["H_B_7"],
+                url=f"https://t.me/ov_tr",
+               ),
             ],
             mark,
         ]
     )
-    InlineKeyboardButton(
-                text=_["H_B_7"],
-                url=f"https://t.me/ov_tr",
-            ),
     return upl
 
 
