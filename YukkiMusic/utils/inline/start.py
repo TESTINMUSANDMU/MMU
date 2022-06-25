@@ -31,6 +31,15 @@ def start_pannel(_):
             ),
         ],
     ]
+def start_pannel(_):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text=_["S_B_1"],
+                url=f"https://t.me/{app.username}?start=help",
+            ),
+        ],
+    ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
