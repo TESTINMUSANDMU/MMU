@@ -31,6 +31,28 @@ def start_pannel(_):
             ),
         ],
     ]
+    def sdd(call):	
+	if call.data =='F1':
+		mas = types.InlineKeyboardMarkup(row_width=2)
+		A = types.InlineKeyboardButton("𝗹4", callback_data="F")
+		B = types.InlineKeyboardButton("𝗹4", callback_data="F2")
+		C = types.InlineKeyboardButton("𝗰7", callback_data="F3")
+		D = types.InlineKeyboardButton("𝗰𝗼9", callback_data="F4")
+		F = types.InlineKeyboardButton("𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 𖠛", url='https://t.me/0')
+		mas.add(A,B,C,D,F)
+		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="r7unu4i",reply_markup=mas)		
+		pass
+	elif call.data =="F4":
+		mas = types.InlineKeyboardMarkup(row_width=2)
+		A = types.InlineKeyboardButton("9", callback_data="Dg")
+		B = types.InlineKeyboardButton("9", callback_data="Dh")
+		C = types.InlineKeyboardButton("𝗼9", callback_data="Do")
+		D = types.InlineKeyboardButton("0", callback_data="Dy")
+		H = types.InlineKeyboardButton("𝗺0", callback_data="Dm")
+		G = types.InlineKeyboardButton("l", callback_data="Dr")		
+		F = types.InlineKeyboardButton("4 ", callback_data="F1")
+		mas.add(A,B,C,D,H,G,F)
+		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="𝐜𝐡𝐨𝐨𝐬𝐞 𝐨𝐧𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧𝐬 𝄵",reply_markup=mas)		
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
