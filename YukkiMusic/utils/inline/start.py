@@ -24,22 +24,10 @@ def start_pannel(_):
             ),
             InlineKeyboardButton(
                 text=_["S_B_99"],
-                url=f"https://t.me/ov_tr",
+                url=f"https://instagram.com/4wz.c?igshid=YmMyMTA2M2Y=",
             ),
             InlineKeyboardButton(
                 text=_["S_B_2"], callback_data="settings_helper"
-            ),
-        ],
-    ]
-def start_pannel(_):
-    tt = [
-        [
-            InlineKeyboardButton(
-                text=_["S_B_2"], callback_data="settings_helper"
-            ),
-            InlineKeyboardButton(
-                text=_["S_B_1"],
-                url=f"https://t.me/{app.username}?start=help",
             ),
         ],
     ]
@@ -83,7 +71,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ]
     ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
-        tt.append(
+        buttons.append(
             [
                 InlineKeyboardButton(
                     text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"
