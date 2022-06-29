@@ -17,7 +17,7 @@ call_1 : "Bomt requimres **Amdmin** permissiomn to invimte assimstant accoumnt t
 call_2 : "Assimstant is bannemd in youmr groump or chamnnel, pleamse unbamn.\n\n**Assistant usemrname:** @{0}\n**Amssistant id:** {1}" 
 
 call_3 : "Excemption occumred whimle invimting assimstant accoumnt to youmr chamt.\n\n**Reamson**: {0}" 
-call_4 : "Bomt requimres **Imnvite Usemrs via Limnk** permissiomn to invimte assimstant accoumnt to youmr chamt groump." 
+call_4  : "Bomt Requimres ** Imnvite Usemrs عبر Limnk ** permissiomn لاستيعاب الاستيعاب في youmr chamt groump." 
 call_5 : "Assimstant accoumnt wimll be joimning in 5 semconds..Please waimt!"
 call_6 : "Assimstant accoumnt[{0}] joimned succemssfully.\n\nStarting musimc nomw"  
 call_7 : "**Hamrmful admin rimght givemn **\n\nPleamse removem **bamn usemrs** rimghts from the bomt." 
