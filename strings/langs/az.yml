@@ -21,7 +21,7 @@ call_5 : "Assistent Hesabı 5 Saniyəyə qoşulacaq. Zəhmət olmasa Gözləyin!
 call_6 : "Assistent Hesabı[{0}] Uğurla Qoşuldu.\n\nMusiqi İndi Başlayır"
 call_7 : "**Zərərli Admin hüququ verilir **\n\nLütfən, botdan **İSTİFADƏÇİLƏRİ QADANAN** hüquqlarını silin."
 call_8 : "**Zərərli Admin hüququ verilir **\n\nLütfən, botdan **YENİ ADMINSƏLƏMƏ** hüquqlarını silin."
-call_9 : "**Yayımı dəyişmək alınmadı**\nTresi yenidən dəyişmək üçün /skip istifadə edin."
+call_9 : "**Yayımı dəyişmək alınmbadı**\nTresi yenidən dəyişmək üçün /skip istifadə edin."
 call_10 : "Pleylistdən növbəti trek endirilir"
 call_11 : "Lütfən, kanalınıza @{0} əlavə edin[ ID: {1}].\n\nBot kanal təfərrüatlarını əldə edə bilmir."
 
